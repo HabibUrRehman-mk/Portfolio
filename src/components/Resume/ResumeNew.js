@@ -1,4 +1,5 @@
 import React, { useState, useEffect, Suspense, lazy } from "react";
+import React, { useState } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
@@ -15,7 +16,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 function ResumeNew() {
   const [width, setWidth] = useState(window.innerWidth);
-  // const [numPages, setNumPages] = useState(null);
+  const [numPages, setNumPages] = useState(null);
 
   useEffect(() => {
     const handleResize = () => setWidth(window.innerWidth);
