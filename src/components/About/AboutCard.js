@@ -1,0 +1,64 @@
+import React from "react";
+import Card from "react-bootstrap/Card";
+import { ImPointRight } from "react-icons/im";
+
+function AboutCard() {
+  return (
+    <Card className="quote-card-view">
+      <Card.Body>
+        <blockquote className="blockquote mb-0">
+          {/* <p style={{ textAlign: "justify" }}>
+            Hi Everyone, I am <span className="purple">Habib-Ur-Rehman </span>
+            from <span className="purple"> Faisalabad, Pakistan.</span>
+            <br />
+            I am IBM Certified Data Science Professional
+            <br />
+            I am currently pursuing a BS in Computer Science at COMSATS University Islamabad. 
+            <br />
+            <br />
+            Apart from coding, some other activities that I love to do!
+          </p> */}
+          <p style={{ textAlign: "justify" }}>
+            Hi Everyone, I am <span className="purple">Habib-Ur-Rehman</span> 
+            from <span className="purple">Faisalabad, Pakistan.</span>
+            <br />
+            I am an <span className="purple">IBM Certified Data Science Professional </span>
+            with strong expertise in <span className="purple">Python, Data Analysis, Visualization, and Machine Learning.</span>
+            <br />
+            I am currently pursuing a <span className="purple">BS in Computer Science</span> at 
+            <span className="purple"> COMSATS University Islamabad.</span>
+            <br />
+            <br />
+            I help businesses and individuals turn <span className="purple">raw data into actionable insights</span> by:
+            <br />- Cleaning and preprocessing datasets  
+            <br />- Performing Exploratory Data Analysis (EDA)  
+            <br />- Creating impactful data visualizations  
+            <br />- Building predictive models for decision-making  
+            <br />
+            <br />
+        
+          </p>
+{/* 
+          <ul>
+            <li className="about-activity">
+              <ImPointRight /> Playing Games
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Cricket
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Travelling
+            </li>
+          </ul> */}
+
+          <p style={{ color: "rgb(155 126 172)" }}>
+            "Every challenge can be solved with the right approach - difficult, but never impossible!"{" "}
+          </p>
+          <footer className="blockquote-footer">Habib-Ur-Rehman</footer>
+        </blockquote>
+      </Card.Body>
+    </Card>
+  );
+}
+
+export default AboutCard;
