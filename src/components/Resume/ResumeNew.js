@@ -15,7 +15,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 function ResumeNew() {
   const [width, setWidth] = useState(window.innerWidth);
-  const [numPages, setNumPages] = useState(null);
+  // const [numPages, setNumPages] = useState(null);
 
   useEffect(() => {
     const handleResize = () => setWidth(window.innerWidth);
