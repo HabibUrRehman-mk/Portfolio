@@ -7,9 +7,7 @@ import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
-import {
-   Toaster
-} from 'react-hot-toast' 
+
 
 import {
   BrowserRouter as Router,
