@@ -60,7 +60,6 @@ const certifications = [
     title: "Python Programming",
     issuer: "Scrappix",
     date: "May 2025",
-    url: "https://www.hackerrank.com/certificates/iframe/defbdeccfc40https://www.linkedin.com/in/habiburrehman-da/details/certifications/1732032284403/single-media-viewer/?type=IMAGE&profileId=ACoAAEZrrrIB_IZ2B4yRc-8eR8L8NCiSf40R0zI",
   },
 ];
 
