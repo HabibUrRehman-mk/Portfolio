@@ -7,18 +7,9 @@ function Certificate() {
   return (
     <Container fluid className="cert-section">
       <Particle />
-      <h4 
-        className="cert-heading" 
-        data-aos="fade-up"
-        style={{
-          fontSize: '2rem',
-          fontWeight: '700',
-          marginBottom: '2rem',
-          textAlign: 'center'
-        }}
-      >
-        🎓 My Certifications
-      </h4>
+      <h1 className="project-heading" data-aos="fade-up">
+        My <strong className="purple">Certificates</strong>
+      </h1>
       <Container className="cert-inner">
         <div className="cert-grid">
           {certifications.map((cert, index) => (
