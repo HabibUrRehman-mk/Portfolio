@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Container, Button } from "react-bootstrap";
 import Particle from "../Particle";
@@ -8,7 +7,6 @@ function Certificate() {
   return (
     <Container fluid className="cert-section">
       <Particle />
-
       <h4 
         className="cert-heading" 
         data-aos="fade-up"
@@ -21,7 +19,6 @@ function Certificate() {
       >
         🎓 My Certifications
       </h4>
-
       <Container className="cert-inner">
         <div className="cert-grid">
           {certifications.map((cert, index) => (
@@ -55,7 +52,6 @@ function Certificate() {
                   }}
                 />
               )}
-
               <h3 
                 className="cert-title"
                 style={{
