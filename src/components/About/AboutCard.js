@@ -8,8 +8,7 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           {/* <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Habib-Ur-Rehman </span>
-            from <span className="purple"> Faisalabad, Pakistan.</span>
+            Hi Everyone, I am <span className="purple">Habib-Ur-Rehman </span>from <span className="purple"> Faisalabad, Pakistan.</span>
             <br />
             I am IBM Certified Data Science Professional
             <br />
@@ -30,12 +29,12 @@ function AboutCard() {
             <br />
             <br />
             I help businesses and individuals turn <span className="purple">raw data into actionable insights</span> by:
-            <br />- Cleaning and preprocessing datasets  
-            <br />- Performing Exploratory Data Analysis (EDA)  
-            <br />- Creating impactful data visualizations  
-            <br />- Building predictive models for decision-making  
-            <br />
-            <br />
+            <ul className="skills-list">
+              <li>Cleaning and preprocessing datasets</li>
+              <li>Performing Exploratory Data Analysis (EDA)</li>
+              <li>Creating impactful data visualizations</li>
+              <li>Building predictive models for decision-making</li>
+            </ul>
         
           </p>
 {/* 
