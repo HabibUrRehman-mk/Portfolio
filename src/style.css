@@ -1123,3 +1123,55 @@ button:focus {
   color: #fff;
   text-decoration: underline;
 }
+
+
+
+/* Certificate hover effect - using same pattern as tech-icons */
+.cert-card {
+  opacity: 0.93 !important;
+  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
+  cursor: pointer;
+}
+
+.cert-card:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+}
+
+
+
+/* Enhanced Education hover effect - matching tech-icons and cert-cards */
+.edu-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  margin-top: 30px;
+  padding: 25px 20px;
+  text-align: left;
+  color: #ddd;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+  
+  /* Tech-icons style properties */
+  opacity: 0.93 !important;
+  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
+  cursor: pointer;
+}
+
+.edu-card:hover {
+  /* Tech-icons style hover effect */
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+  
+  /* Keep the existing translateY effect too for enhanced experience */
+  transform: translateY(-6px) scale(1.05) !important;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+}
+
+
