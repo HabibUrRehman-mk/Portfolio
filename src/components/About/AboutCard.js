@@ -1,16 +1,14 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-
+// import { ImPointRight } from "react-icons/im";
 
 function AboutCard() {
   return (
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-        
-          <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Habib-Ur-Rehman</span> 
-            from <span className="purple">Faisalabad, Pakistan.</span>
+          <p style={{ textAlign: "left" }}>
+            Hi Everyone, I am <span className="purple">Habib-Ur-Rehman</span> from <span className="purple">Faisalabad, Pakistan.</span>
             <br />
             I am an <span className="purple">IBM Certified Data Science Professional </span>
             with strong expertise in <span className="purple">Python, Data Analysis, Visualization, and Machine Learning.</span>
@@ -26,20 +24,8 @@ function AboutCard() {
               <li>Creating impactful data visualizations</li>
               <li>Building predictive models for decision-making</li>
             </ul>
-        
+                  
           </p>
-{/* 
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Games
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Cricket
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Travelling
-            </li>
-          </ul> */}
 
           <p style={{ color: "rgb(155 126 172)" }}>
             "Every challenge can be solved with the right approach - difficult, but never impossible!"{" "}
