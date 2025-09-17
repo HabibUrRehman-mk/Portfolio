@@ -45,22 +45,7 @@ function Projects() {
             />
           </Col>
 
-          <Col
-            md={4}
-            className="project-card"
-            data-aos="zoom-in"
-            data-aos-duration="1000"
-            data-aos-delay="200"
-          >
-            <ProjectCard
-              imgPath={Iris}
-              isBlog={false}
-              title="Iris"
-              description="A machine learning project that classifies Iris flowers into different species (Setosa, Versicolor, Virginica) based on petal and sepal measurements. It uses supervised learning algorithms and achieves high accuracy."
-              ghLink="https://github.com/HabibUrRehman-mk/iris_knn_classifier"
-              demoLink="https://knniris-habiburrehman.streamlit.app/"
-            />
-          </Col>
+         
 
           <Col
             md={4}
@@ -93,6 +78,23 @@ function Projects() {
               description="A machine learning project that predicts body fat percentage based on health indicators such as age, weight, height, and body measurements. It helps in health monitoring and fitness planning with quick predictions."
               ghLink="https://github.com/HabibUrRehman-mk/Body_Fat_predictor"
               demoLink="https://bodyfatpredictor.streamlit.app/"
+            />
+          </Col>
+
+           <Col
+            md={4}
+            className="project-card"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+          >
+            <ProjectCard
+              imgPath={Iris}
+              isBlog={false}
+              title="Iris"
+              description="A machine learning project that classifies Iris flowers into different species (Setosa, Versicolor, Virginica) based on petal and sepal measurements. It uses supervised learning algorithms and achieves high accuracy."
+              ghLink="https://github.com/HabibUrRehman-mk/iris_knn_classifier"
+              demoLink="https://knniris-habiburrehman.streamlit.app/"
             />
           </Col>
         </Row>
